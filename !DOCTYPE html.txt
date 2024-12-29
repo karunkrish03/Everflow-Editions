@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everflow Editions</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        header {
+            background-color: #2a4b7c;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .section {
+            padding: 2em;
+            text-align: center;
+        }
+        .books {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .book {
+            border: 1px solid #ddd;
+            padding: 1em;
+            width: 200px;
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #2a4b7c;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Everflow Editions</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#books">Books</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Stories That Flow Beyond Boundaries</h1>
+</div>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Welcome to Everflow Editions, where creativity flows endlessly. We are dedicated to bringing compelling stories to life and sharing them with the world. Our mission is to empower self-published authors and inspire readers everywhere.</p>
+</section>
+
+<section id="books" class="section">
+    <h2>Our Books</h2>
+    <div class="books">
+        <div class="book">
+            <img src="book1.jpg" alt="Book 1">
+            <h3>Book Title 1</h3>
+            <p>A captivating story that will leave you spellbound.</p>
+        </div>
+        <div class="book">
+            <img src="book2.jpg" alt="Book 2">
+            <h3>Book Title 2</h3>
+            <p>An unforgettable journey through the realms of imagination.</p>
+        </div>
+        <!-- Add more books as needed -->
+    </div>
+</section>
+
+<section id="blog" class="section">
+    <h2>From Our Blog</h2>
+    <p>Stay tuned for the latest updates, writing tips, and author interviews. Our blog is the perfect space for creative minds.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to collaborate? Reach out to us at <a href="mailto:contact@everfloweditions.com">contact@everfloweditions.com</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Everflow Editions. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
